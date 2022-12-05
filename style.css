@@ -141,7 +141,6 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    ;
     align-items: center;
     flex-basis: 384px;
     gap: 35px;
@@ -213,4 +212,23 @@ h1 {
 
  .advert-text>p {
     font-weight: 400;
+ }
+ .footer {
+    background-color:#9D6F50;
+    padding:32px 33px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+ }
+
+ .footer-links {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+ }
+
+ .caption {
+    color:#FFFFFF;
+    font-size:20px;
+    flex-wrap:wrap;
  }

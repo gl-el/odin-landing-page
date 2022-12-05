@@ -106,13 +106,13 @@ h1 {
     color: #000000;
     font-weight: 900;
     font-size: 24px;
-    line-height:1;
+    line-height: 1;
     text-transform: uppercase;
     display: inline-block;
 }
 
 .materials {
-    margin:65px 92px 80px 92px;
+    margin: 65px 92px 80px 92px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -121,7 +121,7 @@ h1 {
 }
 
 .materials>h2 {
-    font-weight:600;
+    font-weight: 600;
     font-size: 48px;
     line-height: 1;
     text-transform: uppercase;
@@ -129,25 +129,26 @@ h1 {
 
 .cards {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .card {
     display: flex;
-    flex-direction:column;
-    justify-content: flex-start;;
+    flex-direction: column;
+    justify-content: flex-start;
+    ;
     align-items: center;
     flex-basis: 384px;
     gap: 35px;
 }
 
 .card>img {
-    width:384px;
-    height:384px;
-    border-radius:30px;
-    object-fit:cover;
-    
+    width: 384px;
+    height: 384px;
+    border-radius: 30px;
+    object-fit: cover;
+
 }
 
 .card:nth-child(1)>img {
@@ -162,8 +163,27 @@ h1 {
     object-position: 0px -165px;
 }
 
-.card>h3, .card>p {
+.card>h3,
+.card>p {
     font-size: 24px;
-    line-height:1;
+    line-height: 1;
 }
 
+.choose {
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/materials.jpeg");
+    background-size: cover;
+    background-position-y: center, -750px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose>p {
+    color: #FFFFFF;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 1;
+    width:1140px;
+    text-align:center;
+}

@@ -223,12 +223,22 @@ h1 {
 
  .footer-links {
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     align-items:center;
+    flex-basis:300px;
+ }
+
+ .footer>.logo {
+    flex-grow:1;
+    text-align:center;
  }
 
  .caption {
     color:#FFFFFF;
     font-size:20px;
+    text-align: end;
+    display:flex;
+    justify-content:flex-end;
     flex-wrap:wrap;
+    flex-basis:300px;
  }
